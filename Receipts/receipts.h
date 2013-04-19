@@ -75,7 +75,6 @@
 #define RECEIPTS_H
 #include <stdlib.h>  // Provides size_t
 
-using namespace std;
     class BagWithReceipts
     {
     public:
@@ -97,7 +96,7 @@ using namespace std;
         size_t occurrences(const Item& target) const;
         bool using_receipt(int receipt) const;
         Item retrieve(int receipt) const;
-    private:
+    //private:
         Item *data;       // Pointer to partially filled dynamic array
         bool *in_use;     // in_use[i] is true if data[i] is being used now.
         size_t used;      // Number of items currently in this BagWithReceipts
