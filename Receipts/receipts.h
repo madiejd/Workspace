@@ -1,4 +1,4 @@
-
+// FILE: receipts.h
 // CLASS PROVIDED: BagWithReceipts
 // This is from Project 2d in Chapter 4 of
 // "Data Structures and Other Objects Using C++"
@@ -76,7 +76,6 @@
 #include <stdlib.h>  // Provides size_t
 
 using namespace std;
-
     class BagWithReceipts
     {
     public:
