@@ -75,6 +75,7 @@
 #define RECEIPTS_H
 #include <stdlib.h>  // Provides size_t
 
+using namespace std;
     class BagWithReceipts
     {
     public:

@@ -5,6 +5,7 @@
 #include <iostream>     // Provides cout and cin
 #include <cstdlib>      // Provides EXIT_SUCCESS
 #include "receipts.h"       // With Item defined as an int
+#include "receipts.cpp"       // With Item defined as an int
 using namespace std;
 
 int main( )
@@ -49,5 +50,5 @@ int main( )
 	}
 
     system("pause");
-    return EXIT_SUCCESS;  
+    return EXIT_SUCCESS;
 }
