@@ -92,7 +92,7 @@
         void remove_by_receipt(int receipt);
         void operator =(const BagWithReceipts& source);
         // CONSTANT MEMBER FUNCTIONS
-        size_t size( ) const { return used; }
+        size_t size( ) const { return (used); }
         size_t occurrences(const Item& target) const;
         bool using_receipt(int receipt) const;
         Item retrieve(int receipt) const;
